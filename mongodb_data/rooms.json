@@ -1,0 +1,10 @@
+{"_id":{"$oid":"6845767b251c55aa1169e32f"},"name":"A101","location":"1층","capacity":10,"has_projector":true,"etc":"화이트보드 있음"}
+{"_id":{"$oid":"6845767b251c55aa1169e330"},"name":"A102","location":"1층","capacity":8,"has_projector":false,"etc":""}
+{"_id":{"$oid":"6845767b251c55aa1169e331"},"name":"B201","location":"2층","capacity":12,"has_projector":true,"etc":"빔프로젝터"}
+{"_id":{"$oid":"6845767b251c55aa1169e332"},"name":"B202","location":"2층","capacity":6,"has_projector":false,"etc":""}
+{"_id":{"$oid":"6845767b251c55aa1169e333"},"name":"C301","location":"3층","capacity":20,"has_projector":true,"etc":"마이크 있음"}
+{"_id":{"$oid":"6845767b251c55aa1169e334"},"name":"C302","location":"3층","capacity":15,"has_projector":true,"etc":""}
+{"_id":{"$oid":"6845767b251c55aa1169e335"},"name":"D401","location":"4층","capacity":5,"has_projector":false,"etc":""}
+{"_id":{"$oid":"6845767b251c55aa1169e336"},"name":"D402","location":"4층","capacity":10,"has_projector":true,"etc":"커피머신 있음"}
+{"_id":{"$oid":"6845767b251c55aa1169e337"},"name":"E501","location":"5층","capacity":25,"has_projector":true,"etc":"최대 수용 회의실"}
+{"_id":{"$oid":"6845767b251c55aa1169e338"},"name":"E502","location":"5층","capacity":7,"has_projector":false,"etc":""}

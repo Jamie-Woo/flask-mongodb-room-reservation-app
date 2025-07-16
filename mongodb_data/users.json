@@ -1,0 +1,5 @@
+{"_id":{"$oid":"6845731b251c55aa1169e328"},"name":"홍길동","email":"hong@example.com","password_hash":"hashed_pw","role":"user"}
+{"_id":{"$oid":"68457588251c55aa1169e32b"},"name":"김철수","email":"kim2@example.com","password_hash":"pw2","role":"user"}
+{"_id":{"$oid":"68457588251c55aa1169e32c"},"name":"이영희","email":"lee3@example.com","password_hash":"pw3","role":"admin"}
+{"_id":{"$oid":"68457588251c55aa1169e32d"},"name":"박민수","email":"park4@example.com","password_hash":"pw4","role":"user"}
+{"_id":{"$oid":"68457588251c55aa1169e32e"},"name":"최지우","email":"choi5@example.com","password_hash":"pw5","role":"user"}
