@@ -1,0 +1,13 @@
+<h2>회의실 목록</h2>
+<table border="1">
+  <tr>
+    <th>이름</th><th>위치</th><th>수용인원</th>
+  </tr>
+  {% for room in rooms %}
+  <tr>
+    <td>{{ room.name }}</td>
+    <td>{{ room.location }}</td>
+    <td>{{ room.capacity }}</td>
+  </tr>
+  {% endfor %}
+</table>

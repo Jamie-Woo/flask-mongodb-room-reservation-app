@@ -1,0 +1,13 @@
+<h2>사용자 목록</h2>
+<table border="1">
+  <tr>
+    <th>이름</th><th>이메일</th><th>역할</th>
+  </tr>
+  {% for user in users %}
+  <tr>
+    <td>{{ user.name }}</td>
+    <td>{{ user.email }}</td>
+    <td>{{ user.role }}</td>
+  </tr>
+  {% endfor %}
+</table>
