@@ -1,8 +1,8 @@
-# 🗂️ Distributed Room Reservation System
+#  Distributed Room Reservation System
 
 This project implements a distributed meeting room reservation system using a **MongoDB Replica Set** and a **Flask-based web application**.
 
-## 📌 Overview
+##  Overview
 
 The main objectives of the project are:
 
@@ -11,21 +11,21 @@ The main objectives of the project are:
 - To test **automatic failover and leader election** when the Primary node fails.
 - To ensure data is **replicated in real-time** between nodes, and all user actions (reservation creation, viewing, etc.) are reflected in the distributed database.
 
-## 🔧 Technologies Used
+##  Technologies Used
 
 - **MongoDB 6.0.24** (Replica Set: Primary + Secondary + Arbiter)
 - **Flask** web framework with **PyMongo** for DB interaction
 - **Python 3.12.3**
 - **Ubuntu 24.04.2 (via VMware Workstation Pro)**
 
-## 🧪 Key Features
+##  Key Features
 
 - **Real-time replication** between MongoDB nodes
 - **Automatic leader re-election** using Arbiter voting when Primary fails
 - **User, Room, and Reservation** data management via a web interface
 - **Failover testing**, including recovery and synchronization after node reboot
 
-## 🌐 Web Interface
+##  Web Interface
 
 | Route         | Description                              |
 |---------------|------------------------------------------|
@@ -34,13 +34,13 @@ The main objectives of the project are:
 | `/reservations` | View all reservations                   |
 | `/reserve`    | Create a new room reservation            |
 
-## 📁 Database Design
+##  Database Design
 
 - `users` collection: Stores user information (name, email, role)
 - `rooms` collection: Stores room details (location, capacity, projector, etc.)
 - `reservations` collection: Links users to rooms with timestamps and status
 
-## ✅ Requirements Implemented
+##  Requirements Implemented
 
 - RQ-1: Replica Set configuration across two machines + Arbiter
 - RQ-2: MongoDB schema and test data population
